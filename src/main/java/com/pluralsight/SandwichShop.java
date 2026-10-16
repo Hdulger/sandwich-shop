@@ -50,9 +50,9 @@ public class SandwichShop {
             largePrice= largePrice;
         }}
 
-        if(loaded.equals("yes")){
-            regularPrice+=1.00;
-            largePrice+=1.75;
+        if(loaded.equals("yes")){ //Modified part
+            regularPrice+=1.00; //Modified part
+            largePrice+=1.75;   //Modified part
             if (userinfo.equals("S")) {
                 System.out.printf("Regular size price is $%.2f \n", regularPrice);
             } else {
